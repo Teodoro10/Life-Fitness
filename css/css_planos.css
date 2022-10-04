@@ -1,0 +1,392 @@
+* {
+    font-family: 'Montserrat';
+}
+
+.barra-header nav li {
+    font-family: 'Montserrat';
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.icon-barra {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 123;
+    margin-top: -45px;
+    margin-right: 150px;
+}
+
+.icon-barra li {
+    margin-right: -50px;
+}
+
+.barra-header {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    background: #E0981F;
+    display: inline-block;
+    position: fixed;
+    font-weight: bold;
+}
+
+.hero1 {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 141px;
+    left: 0px;
+    top: 54px;
+    background: #272020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.hero1 nav li {
+    display: inline-block;
+    padding: 60px 0;
+}
+
+.hehe hr {
+    display: flex;
+}
+
+.hero1 nav a {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 60px 20px;
+}
+
+.hero1 nav a:hover {
+    border-top: 5px solid #272020;
+    color: #E0981F;
+}
+
+.logo {
+    width: 200px;
+    height: 134.65px;
+    margin-left: -18.2vw;
+}
+/* header*/
+#planos{
+    margin-top: 300px;
+
+}
+h1 {
+    text-align: center;
+}
+
+.card {
+   
+    display: flex;
+    justify-content: center;
+}
+
+.card-1, .card-2 {
+    background-color: #E0981F;
+    border: 4px solid black;
+}
+
+.cartao {
+    padding-top: 30px;
+    width: auto;
+    margin: 30px;
+    box-shadow: 10px 10px 10px #aaaaaa;
+    border-radius: 5px;
+}
+
+.informacao {
+    margin: 30px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 20px;
+    color: #212121;
+    line-height: 23px;
+    letter-spacing: .5px;
+}
+
+.info {
+    display: flex;
+    padding-bottom: 15px;
+    line-height: 1.5;
+}
+
+.money {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+#reais {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+#centavos {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.mes {
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.botao {
+    background-color: black;
+    color: white;
+    padding: 6%;
+    border-radius: 5px;
+    border: #fd7e14;
+    letter-spacing: 1.25px;
+    font-weight: bold;
+}
+
+
+.flex-button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+
+.linha {
+    border: 1px solid gray;
+    margin-bottom: 30px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sobre-card2 {
+    margin-top: 230px;
+}
+
+.link-sobre {
+    text-decoration: none;
+}
+
+.a {
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+/* popup  */
+input[type=text], input[type=password],input[type=email],input[type=number],input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  .btn-login,.btn-cadastrar {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+/* FOOTER*/
+
+.footer {
+    font-family: 'Montserrat';
+    background-color: #272020;
+    color: white;
+    width: 100%;
+    height: 319px;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.foot {
+    font-size: 30px;
+}
+
+.foot-t1 {
+    font-size: 18px;
+}
+
+.texto-footer {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 51px;
+}
+
+.foot2,
+.foot3 {
+    padding-top: 17px;
+}
+
+.foot3 {
+    margin-left: 28px;
+}
+
+.foot1 {
+    margin-right: 28px;
+}
+
+.cont {
+    margin-top: 12px;
+}
+
+.rodape {
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 96px;
+    color: white;
+    background-color: #272020;
+    margin-top: -8px;
+}
+
+.barra {
+    width: 1707.5px;
+    height: 0px;
+    border: 2px solid #E0981F;
+}
+
+.copy {
+    position: absolute;
+    width: 543px;
+    height: 21px;
+    left: 166px;
+    margin-top: 34px;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.icon-rodape {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 123;
+    margin-top: -70px;
+    margin-right: 150px;
+}
+
+.icon-rodape li {
+    margin-right: 21px;
+    display: inline-block;
+}

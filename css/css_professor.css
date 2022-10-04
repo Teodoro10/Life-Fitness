@@ -1,0 +1,223 @@
+
+.barra-header nav li {
+    font-family: 'Montserrat';
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.icon-barra {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 123;
+    margin-top: -45px;
+    margin-right: 150px;
+}
+
+.icon-barra li {
+    margin-right: -50px;
+}
+
+.barra-header {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    background: #E0981F;
+    display: inline-block;
+    position: fixed;
+    font-weight: bold;
+}
+
+.hero1 {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 141px;
+    left: 0px;
+    top: 54px;
+    background: #272020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.hero1 nav li {
+    display: inline-block;
+    padding: 60px 0;
+
+}
+.hehe hr{
+    display: flex;
+
+}
+.hero1 nav a {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 60px 20px;
+
+}
+.hero1 nav a:hover{
+    border-top: 5px solid #272020;
+    color: #E0981F;
+}
+.logo {
+    width: 200px;
+    height: 134.65px;
+    margin-left: -18.2vw;
+}
+/* Corpo */
+body{
+    background-color: #332A2A;
+
+}
+main{
+padding: 150px;
+}
+.txt{
+    color:#E0981F;
+    text-align: center;
+    font-weight: bold;
+}
+.txt h1{
+    font-size:48px;
+    padding: 80px 0 30px 0;
+    font-family: 'Montserrat';
+}
+.txt p{
+    font-size:32px;
+    font-family: 'Montserrat';
+}
+.cad{
+    display: flex;
+    justify-content: space-evenly;
+    margin:30px 0 0 0;
+    color: white;
+    font-family: 'Montserrat';
+    padding: 40px;
+
+}
+.cad h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding:20px 30px 10px 0;
+}
+.cad input{
+    color: white;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    outline: 0;
+    width:400px;
+}
+.button button:hover{
+opacity:0.7;
+}
+.button{
+    background-color: #b97426;
+    color:white;
+    
+ text-align: center;
+ font-size: 32px;
+ font-weight: 700;
+ font-family: 'Montserrat';
+ width:200px;
+ display: flex;
+ padding: 3px;
+ justify-content: center;
+ border-radius: 10px;
+ margin-left: 700px;
+margin-top: 30px;
+margin-bottom: -50px;
+}
+/* Footer ↕↕ */
+.footer {
+    font-family: 'Montserrat';
+    background-color: #272020;
+    color: white;
+    width: 100%;
+    height: 319px;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.foot {
+    font-size: 30px;
+}
+
+.foot-t1 {
+    font-size: 18px;
+}
+
+.texto-footer {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 51px;
+}
+
+.foot2,
+.foot3 {
+    padding-top: 17px;
+}
+
+.foot3 {
+    margin-left: 28px;
+}
+
+.foot1 {
+    margin-right: 28px;
+}
+
+.cont {
+    margin-top: 12px;
+}
+
+.rodape {
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 96px;
+    color: white;
+    background-color: #272020;
+    margin-top: -8px;
+}
+
+.barra {
+    width: 1707.5px;
+    height: 0px;
+    border: 2px solid #E0981F;
+}
+.copy{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+/* .copy {
+    position: absolute;
+    width: 543px;
+    height: 21px;
+    left: 166px;
+    top: 2389px;
+    font-size: 17px;
+    line-height: 21px;
+} */
+
+.icon-rodape {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 123;
+    margin-top: -70px;
+    margin-right: 150px;
+}
+
+.icon-rodape li {
+    margin-right: 21px;
+    display: inline-block;
+}
