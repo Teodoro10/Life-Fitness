@@ -40,8 +40,8 @@ if (!$db_selected) {
     $csenha   =$_POST['cpsw'];
 
 //inserindo na tabela
-$sql = "INSERT INTO aluno(nome, cpf, email, contato, senha)
-                    VALUES('$nome','$cpf','$email','$contato','$senha')";
+$sql = "INSERT INTO aluno(nome, cpf, email, contato, senha, plano)
+                    VALUES('$nome','$cpf','$email','$contato','$senha','GOLD')";
 
 if (mysqli_query($conexao, $sql)) {
       echo "New record created successfully";
@@ -49,5 +49,47 @@ if (mysqli_query($conexao, $sql)) {
 echo "Error: " . $sql . "<br>" . mysqli_error($conexao);}
 	  
 	  mysqli_close($conexao);
+
+?>
+<?php
+
+$email     =$_POST['email2'];
+$cpf      =$_POST['cpf2'];
+$nome      =$_POST['uname2'];
+$contato      =$_POST['cont2'];
+$senha    =$_POST['psw2'];
+$csenha   =$_POST['cpsw2'];
+
+//inserindo na tabela
+$sql = "INSERT INTO aluno(nome, cpf, email, contato, senha, plano)
+                VALUES('$nome','$cpf','$email','$contato','$senha','PLATINUM')";
+
+if (mysqli_query($conexao, $sql)) {
+  echo "New record created successfully";
+} else {
+echo "Error: " . $sql . "<br>" . mysqli_error($conexao);}
+  
+  mysqli_close($conexao);
+
+?>
+<?php
+
+$email     =$_POST['email3'];
+$cpf      =$_POST['cpf3'];
+$nome      =$_POST['uname3'];
+$contato      =$_POST['cont3'];
+$senha    =$_POST['psw3'];
+$csenha   =$_POST['cpsw3'];
+
+//inserindo na tabela
+$sql = "INSERT INTO aluno(nome, cpf, email, contato, senha, plano)
+                VALUES('$nome','$cpf','$email','$contato','$senha','DIAMOND')";
+
+if (mysqli_query($conexao, $sql)) {
+  echo "New record created successfully";
+} else {
+echo "Error: " . $sql . "<br>" . mysqli_error($conexao);}
+  
+  mysqli_close($conexao);
 
 ?>
