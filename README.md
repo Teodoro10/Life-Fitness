@@ -1,9 +1,11 @@
 Life Fitness
 Projeto em grupo
 
-Em Construção
+Acesse o link e veja como está o projeto
 
-Criando Projeto para aula do Senac Meus Parceiros de Projeto:
+<a href="https://lnkd.in/dhVgfTyk" target="_blank"> Projeto </a>
+
+ Meus Parceiros de Projeto:
 
 Vinicius Feitosan
 
@@ -17,9 +19,7 @@ Gustavo Sirineu
 
 <a href="https://github.com/Sirineuu" target="_blank">GitHub</a>
 
-Acesse o link e veja como está o projeto
 
-<a href="https://lnkd.in/dhVgfTyk" target="_blank"> Projeto </a>
 
  
 
