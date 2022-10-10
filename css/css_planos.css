@@ -78,11 +78,16 @@
 }
 /* header*/
 #planos{
-    margin-top: 300px;
+    margin-top: 250px;
 
 }
-h1 {
+#titulo{
     text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #E0981F;
 }
 
 .card {
@@ -174,9 +179,6 @@ h1 {
     text-align: center;
 }
 
-.sobre-card2 {
-    margin-top: 230px;
-}
 
 .link-sobre {
     text-decoration: none;
@@ -196,11 +198,15 @@ input[type=text], input[type=password],input[type=email],input[type=number],inpu
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
-  
+  .t-form{
+    text-align: center;
+    font-size: 30px;
+  }
   /* Set a style for all buttons */
   .btn-login,.btn-cadastrar {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #E0981F;
+    color: black;
+    font-weight: bold;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -232,7 +238,7 @@ input[type=text], input[type=password],input[type=email],input[type=number],inpu
   }
   
   .container {
-    padding: 16px;
+    padding: 10px;
   }
   
   span.psw {
@@ -242,6 +248,7 @@ input[type=text], input[type=password],input[type=email],input[type=number],inpu
   
   /* The Modal (background) */
   .modal {
+    font-family: 'Montserrat';
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
