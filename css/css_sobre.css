@@ -1,0 +1,232 @@
+body{
+    background-color: #332A2A;
+    font-family: 'Montserrat';
+}
+.barra-header nav li {
+    font-family: 'Montserrat';
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.icon-barra {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 123;
+    margin-top: -45px;
+    margin-right: 150px;
+}
+
+.icon-barra li {
+    margin-right: -50px;
+}
+
+.barra-header {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    background: #E0981F;
+    display: inline-block;
+    position: fixed;
+    font-weight: bold;
+}
+
+.hero1 {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 141px;
+    left: 0px;
+    top: 54px;
+    background: #272020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.hero1 nav li {
+    display: inline-block;
+    padding: 60px 0;
+}
+
+.hehe hr {
+    display: flex;
+}
+
+.hero1 nav a {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 60px 20px;
+}
+
+.hero1 nav a:hover {
+    border-top: 5px solid #272020;
+    color: #E0981F;
+}
+
+.logo {
+    width: 200px;
+    height: 134.65px;
+    margin-left: -18.2vw;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    padding: 109px 0 109px 0;
+}
+.texto {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    padding-left: 177px;
+}
+.desc{
+    margin-top: 170px;
+}
+.icon-logo{
+    display: flex;
+    justify-content: flex-end;
+}
+.loginhos{
+    padding: 28px 76px 0 0;
+}
+img{
+    border-radius: 2%;
+}
+.docent{
+    display: flex;
+    justify-content: space-around;
+}
+.titulos{
+    text-align: center;
+}
+
+.conteudo{
+    margin-top: 200px;
+}
+h1{
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+.docent-t{
+    padding: 0 0 64px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.docent-p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    padding-bottom: 44px;
+}
+.senac{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    margin-top: 105px;
+    color: white;
+}
+p{
+    color: white;
+}
+/* footer */
+.footer {
+    font-family: 'Montserrat';
+    background-color: #272020;
+    color: white;
+    width: 100%;
+    height: 319px;
+    margin-top: 100px;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.foot {
+    font-size: 30px;
+}
+
+.foot-t1 {
+    font-size: 18px;
+}
+
+.texto-footer {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 51px;
+}
+
+.foot2,
+.foot3 {
+    
+    margin-top: 30px;
+}
+
+.foot3 {
+    margin-left: 100px;
+}
+
+.foot1 {
+    margin-right: 100px;
+}
+
+.cont {
+    margin-top: 12px;
+}
+
+.rodape {
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 96px;
+    color: white;
+    background-color: #272020;
+    margin-top: -8px;
+}
+
+.barra {
+    width: 1707.5px;
+    border: 2px solid #E0981F;
+}
+
+.copy {
+    position: absolute;
+    width: 543px;
+    height: 21px;
+    left: 166px;
+    margin-top: 34px;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.icon-rodape {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 123;
+    margin-top: -70px;
+    margin-right: 150px;
+}
+
+.icon-rodape li {
+    margin-right: 21px;
+    display: inline-block;
+}
