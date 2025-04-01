@@ -1,4 +1,4 @@
-
+<!-- 
 <html>
 <head>
 <title> Cadastro de Professores </title>
@@ -54,4 +54,4 @@ echo "Error: " . $sql . "<br>" . mysqli_error($conexao);}
 	  
 	  mysqli_close($conexao);
 
-?>
+?> -->

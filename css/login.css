@@ -1,0 +1,104 @@
+* {
+    font-family: 'Montserrat';
+}
+body{
+    background-color:#272020;
+    display: flex;
+    justify-content: center; 
+}
+.principal h1{
+    text-align: center;
+}
+
+.principal{
+margin-top: 10%;
+background-color:#272020;
+}
+#email{
+    background-color:#E0981F ;
+    border-radius: 20px;
+    padding: 15px;
+    width: 400px; 
+    height:30px ;
+    list-style: none;
+}
+.senha{
+    margin-top: 10%;
+}
+
+#senha{
+    background-color:#E0981F ;
+    border-radius: 20px;
+     padding: 15px;
+    width: 400px; 
+    height:30px ; 
+    list-style: none;
+    
+}
+
+
+h1{
+    font-size: 20;
+    color: #ffffff;
+    margin-bottom: 15%;
+    
+}
+input{
+   color: #ffffff;
+   font-size: 16px;
+}
+label{
+    color: #ffffff;
+
+    margin-left: 20px;
+   
+}
+
+.principal .links{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+ a{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 50px;
+}
+
+b{
+    color:#E0981F ;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+    
+ }
+ 
+ :-moz-placeholder {
+    color: #ffffff;
+    
+ }
+ 
+ ::-moz-placeholder {
+    color: #ffffff;
+    
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #ffffff;
+    
+ }
+
+ button{
+
+    background-color: #E0981F;
+    color: #ffffff;
+   height: 40px;
+    width: 300px;
+    margin-left: 15%;
+    border-radius: 15px;
+ }

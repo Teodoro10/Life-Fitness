@@ -1,0 +1,107 @@
+* {
+    font-family: 'Montserrat';
+}
+body{
+    background-color:#272020;
+}
+.header{
+    display: flex;
+    justify-content:center;
+    
+}
+.principal{
+    margin-top: 5%;
+}
+img{
+     width: 227px;
+     height: 160px;
+     margin-right: 1%;
+}
+h1, h2 {
+    color: #ffff;
+    font-weight: 300;
+}
+h1{
+    font-size: 40px;
+
+}
+h2{
+    font-size: 40px;
+    margin-left: 8%;
+}
+
+form{
+    margin-left: 43%;
+}
+::-webkit-input-placeholder {
+    color: #ffffff;
+    
+ }
+ 
+ :-moz-placeholder {
+    color: #ffffff;
+    
+ }
+ 
+ ::-moz-placeholder {
+    color: #ffffff;
+    
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #ffffff;
+    
+ }
+
+ button{
+
+    background-color: #E0981F;
+    color: #ffffff;
+   height: 40px;
+    width: 300px;
+    margin-left: 5%;
+    border-radius: 15px;
+ }
+
+
+ #email{
+    background-color:#E0981F ;
+    border-radius: 20px;
+    padding: 15px;
+    width: 400px; 
+    height:30px ;
+    list-style: none;
+}
+
+
+#senha{
+    background-color:#E0981F ;
+    border-radius: 20px;
+     padding: 15px;
+    width: 400px; 
+    height:30px ; 
+    list-style: none;
+    
+}
+
+#nome{
+    background-color:#E0981F ;
+    border-radius: 20px;
+     padding: 15px;
+    width: 400px; 
+    height:30px ; 
+    list-style: none;
+    
+}
+
+input{
+   color: #ffffff;
+   font-size: 16px;
+   margin-bottom: 30px;
+}
+label{
+    color: #ffffff;
+    margin-left: 20px;
+   
+}
+
